@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+    
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 .wrapper {
-  width: 89%;
+  width: 100%;
   display: grid;
   grid-template-columns: min(460px, calc(100vw - 460px)) 2fr;
   max-width: 1280px;
